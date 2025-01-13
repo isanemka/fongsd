@@ -7,10 +7,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node.js-modules
 node_modules
+
+#TypeScript compilation
 dist
 dist-ssr
+*.tsbuildinfo
+
+# Environment variables
 *.local
+.env
 
 # Editor directories and files
 .vscode/
@@ -21,3 +28,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Linting och formattering
+.eslintcache
+.prettierignore
+.prettier
+
+# Vercel och andra deployment-filer
+.vercel
